@@ -1,12 +1,12 @@
 body {
-  font-family: Arial, sans-serif;
   margin: 0;
-  padding: 0;
-  background-color: #f4f4f4;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f9f9f9;
+  color: #222;
 }
 
 header {
-  background-color: #222;
+  background: #111;
   color: white;
   padding: 15px 30px;
   display: flex;
@@ -14,9 +14,9 @@ header {
   align-items: center;
 }
 
-.site-title {
-  font-size: 18px;
+.logo {
   font-weight: bold;
+  font-size: 18px;
 }
 
 nav a {
@@ -29,27 +29,55 @@ nav a:hover {
   text-decoration: underline;
 }
 
-main {
-  padding: 30px;
+.hero {
+  padding: 60px 30px 30px;
+  text-align: center;
+  background: linear-gradient(to right, #dceefb, #e0f2f1);
 }
 
-h1 {
-  margin-bottom: 5px;
+.hero h1 {
+  margin-bottom: 10px;
 }
 
-h2 {
-  color: #555;
-  margin-top: 0;
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #007acc;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background: #005fa3;
 }
 
 section {
-  margin-top: 30px;
+  padding: 40px 30px;
 }
 
-a {
-  color: #007bff;
-  text-decoration: none;
+.project {
+  margin-bottom: 25px;
 }
-a:hover {
+
+#contact {
+  text-align: center;
+}
+
+.contact-links a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #007acc;
+}
+
+.contact-links a:hover {
   text-decoration: underline;
+}
+
+footer {
+  background: #eee;
+  text-align: center;
+  padding: 10px;
+  font-size: 14px;
 }
